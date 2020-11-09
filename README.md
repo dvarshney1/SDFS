@@ -1,6 +1,6 @@
 # Simple Distributed Filesystem using GOSSIP membership protocol
 
-We have implemented a Simple distributed file system in this project (SDFS). We are using GOSSIP as our membership protocol. We used Python3 for this assignment.
+Here, I have implemented a Simple distributed file system in this project (SDFS) using GOSSIP as our membership protocol in python3
 
 ## Usage
 
@@ -18,7 +18,7 @@ Each local process on starting will create a directory called `sdfs` which will 
 
 ## Testing
 
-To create some randomly generated test files, you can run the following script.
+To create some randomly generated files, you can run the following script.
 ```bash
 ./create_test_files.sh
 ```
